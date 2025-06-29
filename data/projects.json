@@ -1,0 +1,66 @@
+[
+  {
+    "code": "SKI",
+    "title": "Ski Resort",
+    "year": "2006",
+    "category": "Resort",
+    "status": "Built",
+    "scale": "10000",
+    "location": "Norway",
+    "thumbnail": "assets/thumbs/ski.jpg"
+  },
+  {
+    "code": "JESS",
+    "title": "Jess Hotel",
+    "year": "2007",
+    "category": "Hotel",
+    "status": "In Progress",
+    "scale": "5000",
+    "location": "Denmark",
+    "thumbnail": "assets/thumbs/jess.jpg"
+  },
+  {
+    "code": "ECH",
+    "title": "Echo Museum",
+    "year": "2008",
+    "category": "Museum",
+    "status": "Idea",
+    "scale": "11000",
+    "location": "USA",
+    "thumbnail": "assets/thumbs/ech.jpg"
+  },
+  {
+    "code": "ALB",
+    "title": "Alb Tower",
+    "year": "2005",
+    "category": "Skyscraper",
+    "status": "Built",
+    "scale": "20000",
+    "location": "UAE",
+    "thumbnail": "assets/thumbs/alb.jpg"
+  },
+  {
+    "title": "VM Houses",
+    "year": "2005",
+    "status": "Built",
+    "scale": "12300",
+    "location": "Denmark",
+    "thumbnail": "assets/images/vm.jpg"
+  },
+  {
+    "title": "ABC",
+    "year": "2005",
+    "thumbnail": "assets/thumbs/abc.png",
+    "scale": "2000",
+    "status": "Built",
+    "location": "India"
+  },
+  {
+    "title": "ZYL",
+    "year": "2025",
+    "thumbnail": "assets/thumbs/zyl.png",
+    "scale": "2000",
+    "status": "Built",
+    "location": "Sri Lanka"
+  }
+]
