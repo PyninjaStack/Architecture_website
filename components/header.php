@@ -7,13 +7,13 @@ $isInfoPage = str_contains($currentPath, '/pages/info-section/') !== false;
 <nav class="navbar">
   <a href="/Positive Space Design Studio/index.php" class="logo">Positive Space Design Studio</a>
 
-  <ul class="menu">
-    <?php if ($isInfoPage): ?>
+  <!--<ul class="menu">
+    <?php //if ($isInfoPage): ?>
       <li><a href="/Positive Space Design Studio/index.php">PROJECTS</a></li>
-    <?php else: ?>
+    <?php //else: ?>
       <li><a href="/Positive Space Design Studio/info.php">INFO</a></li>
-    <?php endif; ?>
-  </ul>
+    <?php //endif; ?>
+  </ul> -->
 </nav>
 
 

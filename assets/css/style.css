@@ -1,175 +1,10 @@
-/* assets/css/style.css */
-
-/*body {
-  font-family: 'Helvetica Neue', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  color: #111;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #000;
-  color: #fff;
-  padding: 1rem 2rem;
-}
-
-a.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
-}
-
-a.logo:hover {
-  text-decoration: underline;
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.menu li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.menu li a.active,
-.menu li a:hover {
-  text-decoration: underline;
-}
-
-.container {
-  padding: 2rem;
-}
-
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.filters button {
-  padding: 0.5rem 1.2rem;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-  font-weight: 500;
-  transition: 0.2s ease;
-}
-
-.filters button.active,
-.filters button:hover {
-  background-color: #333;
-}
-
-#project-list {
-  margin-bottom: 120px;
-} */
-
-/* Grouping layout */
-/*.horizontal-group-wrapper-static {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 2rem;
-  justify-content: flex-start;
-  align-items: flex-end;
-  margin: 0 2rem 2rem 2rem;
-  overflow-x: auto;
-  padding: 1rem 0;
-}
-
-.group-block-static {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.3rem;
-}
-
-.group-stack-static {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
-
-.group-label-bottom-static {
-  margin-top: 0.5rem;
-  font-weight: bold;
-  font-size: 0.9rem;
-  text-align: center;
-  white-space: nowrap;
-} */
-
-/* Project Cards */
-/*.project-card {
-  width: 60px;
-  height: 60px;
-  overflow: hidden;
-  transition: all 0.2s ease-in-out;
-  border-radius: 4px;
-  position: relative;
-  background-color: #fff;
-  box-shadow: 0 0 0 1px #ddd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}*/
-
-/* On hover, show enlarged preview */
-/*.project-card:hover {
-  z-index: 10;
-  transform: scale(2.5);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-}*/
-
-/* Hide titles (no need per reference image) */
-/*.project-title {
-  display: none;
-}
-
-.project-card:hover .project-title {
-  display: block;
-  bottom: -24px;
-}*/
-
-/* Footer */
-/*.footer {
-  text-align: center;
-  padding: 1.5rem;
-  font-size: 0.9rem;
-  background-color: #f2f2f2;
-  color: #333;
-  margin-top: 3rem;
-}*/
-
-
-/* assets/css/style.css */
-
 body {
   font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   color: #111;
-  overflow-x: hidden; /* prevent horizontal scroll on hover */
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -208,53 +43,39 @@ a.logo:hover {
 
 .menu li a.active,
 .menu li a:hover {
-  text-decoration: underline;
+  color: red;
 }
 
 .container {
   padding: 2rem;
 }
 
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.filters button {
-  padding: 0.5rem 1.2rem;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-  font-weight: 500;
-  transition: 0.2s ease;
-}
-
-.filters button.active,
-.filters button:hover {
-  background-color: #333;
-}
-
 #project-list {
   margin-bottom: 120px;
 }
 
-/* Grouping layout */
+/* 🔽 Project Grouping Layout */
 .horizontal-group-wrapper-static {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 2rem;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-end;
   margin: 0 2rem 2rem 2rem;
   padding: 1rem 0;
   overflow: visible;
   position: relative;
   box-sizing: border-box;
+}
+
+.horizontal-group-wrapper-static.dense-layout {
+  gap: 1.2rem;
+}
+
+.horizontal-group-wrapper-static.dense-layout .project-card {
+  width: 40px;
+  height: 40px;
 }
 
 .group-block-static {
@@ -279,7 +100,7 @@ a.logo:hover {
   white-space: nowrap;
 }
 
-/* Project Cards */
+/* 🔽 Project Cards */
 .project-card {
   width: 60px;
   height: 60px;
@@ -302,7 +123,6 @@ a.logo:hover {
   transition: transform 0.3s ease;
 }
 
-/* On hover, show enlarged preview */
 .project-card:hover {
   transform: scale(2.5) translate(10%, -10%);
   transform-origin: center center;
@@ -310,8 +130,6 @@ a.logo:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Hide titles (no need per reference image) */
 .project-title {
   display: none;
 }
@@ -321,7 +139,7 @@ a.logo:hover {
   bottom: -24px;
 }
 
-/* Footer */
+/* 🔽 Footer */
 .footer {
   text-align: center;
   padding: 1.5rem;
@@ -329,4 +147,83 @@ a.logo:hover {
   background-color: #f2f2f2;
   color: #333;
   margin-top: 3rem;
+}
+
+/* 🔽 Unified Filter Bar with Info Left, Filters Center, All Projects Right */
+.filters-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.filters-left,
+.filters-right {
+  flex: 0 0 auto;
+}
+
+.filters-left a,
+.filters-right button {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none; /* Prevent underline */
+}
+
+.filters-left a:hover,
+.filters-right button:hover {
+  color: red;
+  text-decoration: none; /* Still prevent underline on hover */
+}
+
+.filters-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.filter-button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.filter-button.active,
+.filter-button:hover {
+  color: red;
+}
+
+/* 🔽 Responsive spacing for smaller screens */
+@media (max-width: 768px) {
+  .filters-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .filters-left,
+  .filters-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .filters-center {
+    justify-content: center;
+  }
 }

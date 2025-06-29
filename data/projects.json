@@ -4,10 +4,11 @@
     "title": "Ski Resort",
     "year": "2006",
     "category": "Resort",
-    "status": "Built",
+    "status": "Completed",
     "scale": "10000",
     "location": "Norway",
-    "thumbnail": "assets/thumbs/ski.jpg"
+    "thumbnail": "assets/images/ski.jpg",
+    "selected": true
   },
   {
     "code": "JESS",
@@ -17,7 +18,7 @@
     "status": "In Progress",
     "scale": "5000",
     "location": "Denmark",
-    "thumbnail": "assets/thumbs/jess.jpg"
+    "thumbnail": "assets/images/jess.jpg"
   },
   {
     "code": "ECH",
@@ -27,40 +28,354 @@
     "status": "Idea",
     "scale": "11000",
     "location": "USA",
-    "thumbnail": "assets/thumbs/ech.jpg"
+    "thumbnail": "assets/images/ech.jpg"
   },
   {
     "code": "ALB",
     "title": "Alb Tower",
     "year": "2005",
     "category": "Skyscraper",
-    "status": "Built",
+    "status": "Completed",
     "scale": "20000",
     "location": "UAE",
-    "thumbnail": "assets/thumbs/alb.jpg"
+    "thumbnail": "assets/images/alb.jpg"
   },
   {
     "title": "VM Houses",
     "year": "2005",
-    "status": "Built",
+    "status": "Completed",
     "scale": "12300",
     "location": "Denmark",
-    "thumbnail": "assets/images/vm.jpg"
+    "thumbnail": "assets/images/vm.jpg",
+    "selected": true
   },
   {
     "title": "ABC",
     "year": "2005",
-    "thumbnail": "assets/thumbs/abc.png",
+    "thumbnail": "assets/images/abc.png",
     "scale": "2000",
-    "status": "Built",
-    "location": "India"
+    "status": "Completed",
+    "location": "India",
+    "selected": true
   },
   {
     "title": "ZYL",
     "year": "2025",
-    "thumbnail": "assets/thumbs/zyl.png",
+    "thumbnail": "assets/images/zyl.png",
     "scale": "2000",
-    "status": "Built",
+    "status": "Completed",
     "location": "Sri Lanka"
+  },
+  {
+    "code": "PBK",
+    "title": "Urban Arcade",
+    "year": "2022",
+    "category": "Resort",
+    "status": "In Progress",
+    "scale": "13901",
+    "location": "Sweden",
+    "thumbnail": "assets/images/sas.png",
+    "selected": true
+  },
+  {
+    "code": "XGX",
+    "title": "Crystal House",
+    "year": "2025",
+    "category": "Hotel",
+    "status": "In Progress",
+    "scale": "5869",
+    "location": "Germany",
+    "thumbnail": "assets/images/rsf.png",
+    "selected": true
+  },
+  {
+    "code": "RFY",
+    "title": "River Nest",
+    "year": "2000",
+    "category": "Library",
+    "status": "Completed",
+    "scale": "4456",
+    "location": "Germany",
+    "thumbnail": "assets/images/int.png",
+    "selected": true
+  },
+  {
+    "code": "PSI",
+    "title": "River Terrace",
+    "year": "2023",
+    "category": "Arena",
+    "status": "In Progress",
+    "scale": "14064",
+    "location": "France",
+    "thumbnail": "assets/images/qzw.png"
+  },
+  {
+    "code": "KDU",
+    "title": "Crystal Resort",
+    "year": "2014",
+    "category": "Library",
+    "status": "Idea",
+    "scale": "12428",
+    "location": "Japan",
+    "thumbnail": "assets/images/qpm.png"
+  },
+  {
+    "code": "GPU",
+    "title": "Urban Gardens",
+    "year": "2014",
+    "category": "Skyscraper",
+    "status": "Completed",
+    "scale": "20513",
+    "location": "Singapore",
+    "thumbnail": "assets/images/sso.png"
+  },
+  {
+    "code": "BZK",
+    "title": "Silver Pavilion",
+    "year": "2012",
+    "category": "Mall",
+    "status": "Idea",
+    "scale": "5897",
+    "location": "USA",
+    "thumbnail": "assets/images/lgx.png"
+  },
+  {
+    "code": "QPY",
+    "title": "Eco Point",
+    "year": "2006",
+    "category": "Resort",
+    "status": "In Progress",
+    "scale": "11041",
+    "location": "UAE",
+    "thumbnail": "assets/images/sdm.jpg",
+    "selected": true
+  },
+  {
+    "code": "EMO",
+    "title": "Golden Plaza",
+    "year": "2017",
+    "category": "Library",
+    "status": "In Progress",
+    "scale": "17591",
+    "location": "UK",
+    "thumbnail": "assets/images/mxa.png"
+  },
+  {
+    "code": "WZY",
+    "title": "Crystal Arcade",
+    "year": "2021",
+    "category": "Studio",
+    "status": "Completed",
+    "scale": "21777",
+    "location": "Canada",
+    "thumbnail": "assets/images/kva.jpg"
+  },
+  {
+    "code": "WZS",
+    "title": "Golden Heights",
+    "year": "2020",
+    "category": "Museum",
+    "status": "In Progress",
+    "scale": "4198",
+    "location": "UK",
+    "thumbnail": "assets/images/rov.jpg"
+  },
+  {
+    "code": "JAU",
+    "title": "Crystal Plaza",
+    "year": "2010",
+    "category": "Library",
+    "status": "Idea",
+    "scale": "12410",
+    "location": "USA",
+    "thumbnail": "assets/images/jhk.png"
+  },
+  {
+    "code": "TSO",
+    "title": "Nova Resort",
+    "year": "2013",
+    "category": "Resort",
+    "status": "Idea",
+    "scale": "24760",
+    "location": "France",
+    "thumbnail": "assets/images/vjh.png",
+    "selected": true
+  },
+  {
+    "code": "GBA",
+    "title": "Green Resort",
+    "year": "2011",
+    "category": "Mall",
+    "status": "In Progress",
+    "scale": "19777",
+    "location": "Singapore",
+    "thumbnail": "assets/images/nxv.jpg",
+    "selected": true
+  },
+  {
+    "code": "NNG",
+    "title": "Sunset Gardens",
+    "year": "2009",
+    "category": "Park",
+    "status": "In Progress",
+    "scale": "23538",
+    "location": "India",
+    "thumbnail": "assets/images/urr.png"
+  },
+  {
+    "code": "JGH",
+    "title": "Luna Nest",
+    "year": "2004",
+    "category": "Hotel",
+    "status": "Completed",
+    "scale": "10055",
+    "location": "Sweden",
+    "thumbnail": "assets/images/hkt.png"
+  },
+  {
+    "code": "POG",
+    "title": "Sky Center",
+    "year": "2022",
+    "category": "Pavilion",
+    "status": "In Progress",
+    "scale": "23920",
+    "location": "South Korea",
+    "thumbnail": "assets/images/xvo.png",
+    "selected": true
+  },
+  {
+    "code": "FBG",
+    "title": "Nova Nest",
+    "year": "2025",
+    "category": "Arena",
+    "status": "Completed",
+    "scale": "13108",
+    "location": "Denmark",
+    "thumbnail": "assets/images/uex.png"
+  },
+  {
+    "code": "AWW",
+    "title": "Urban Hub",
+    "year": "2024",
+    "category": "Resort",
+    "status": "In Progress",
+    "scale": "3261",
+    "location": "Mexico",
+    "thumbnail": "assets/images/jii.png"
+  },
+  {
+    "code": "AVS",
+    "title": "Harmony House",
+    "year": "2024",
+    "category": "Park",
+    "status": "Completed",
+    "scale": "4580",
+    "location": "Australia",
+    "thumbnail": "assets/images/ioa.png",
+    "selected": true
+  },
+  {
+    "code": "TIK",
+    "title": "Golden Arcade",
+    "year": "2012",
+    "category": "Hotel",
+    "status": "Idea",
+    "scale": "5876",
+    "location": "Australia",
+    "thumbnail": "assets/images/amk.jpg",
+    "selected": true
+  },
+  {
+    "code": "QFG",
+    "title": "Eco Resort",
+    "year": "2001",
+    "category": "Mall",
+    "status": "In Progress",
+    "scale": "4690",
+    "location": "Norway",
+    "thumbnail": "assets/images/aow.jpg"
+  },
+  {
+    "code": "YMJ",
+    "title": "Urban Plaza",
+    "year": "2010",
+    "category": "Hotel",
+    "status": "Completed",
+    "scale": "20659",
+    "location": "Canada",
+    "thumbnail": "assets/images/jlh.png",
+    "selected": true
+  },
+  {
+    "code": "UKQ",
+    "title": "Crystal Hub",
+    "year": "2007",
+    "category": "Library",
+    "status": "Completed",
+    "scale": "22720",
+    "location": "Mexico",
+    "thumbnail": "assets/images/uzc.jpg"
+  },
+  {
+    "code": "WXA",
+    "title": "Golden Center",
+    "year": "2022",
+    "category": "Theater",
+    "status": "In Progress",
+    "scale": "11391",
+    "location": "UK",
+    "thumbnail": "assets/images/kwc.png"
+  },
+  {
+    "code": "WPN",
+    "title": "Sunset Resort",
+    "year": "2005",
+    "category": "Theater",
+    "status": "Completed",
+    "scale": "14063",
+    "location": "Sweden",
+    "thumbnail": "assets/images/zid.png"
+  },
+  {
+    "code": "FTW",
+    "title": "Golden Center",
+    "year": "2011",
+    "category": "Resort",
+    "status": "Idea",
+    "scale": "14158",
+    "location": "UAE",
+    "thumbnail": "assets/images/oaq.png",
+    "selected": true
+  },
+  {
+    "code": "MWT",
+    "title": "Crystal Nest",
+    "year": "2002",
+    "category": "Library",
+    "status": "Completed",
+    "scale": "2872",
+    "location": "South Korea",
+    "thumbnail": "assets/images/lzw.png"
+  },
+  {
+    "code": "DKL",
+    "title": "Golden Hub",
+    "year": "2020",
+    "category": "Resort",
+    "status": "Completed",
+    "scale": "2541",
+    "location": "Japan",
+    "thumbnail": "assets/images/rip.png"
+  },
+  {
+    "code": "EEM",
+    "title": "Crystal Plaza",
+    "year": "2002",
+    "category": "Mall",
+    "status": "Idea",
+    "scale": "20178",
+    "location": "UAE",
+    "thumbnail": "assets/images/gsw.png"
   }
+
 ]
