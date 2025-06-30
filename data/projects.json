@@ -376,6 +376,16 @@
     "scale": "20178",
     "location": "UAE",
     "thumbnail": "assets/images/gsw.png"
+  },
+  {
+    "code": "SYD",
+    "title": "Marraige",
+    "year": "2026",
+    "category": "Marraige Hall",
+    "status": "UnderConstruction",
+    "scale": "20178",
+    "location": "UAE",
+    "thumbnail": "assets/images/syd.png",
+    "selected": true
   }
-
 ]

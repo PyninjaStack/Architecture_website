@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
@@ -16,6 +16,7 @@ body {
   padding: 1rem 2rem;
   position: relative;
   z-index: 1000;
+  margin-bottom: 5rem;
 }
 
 a.logo {
@@ -51,11 +52,11 @@ a.logo:hover {
 }
 
 #project-list {
-  margin-bottom: 120px;
-}
+  margin-bottom: 40px;
+}*/
 
 /* 🔽 Project Grouping Layout */
-.horizontal-group-wrapper-static {
+/*.horizontal-group-wrapper-static {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -67,6 +68,8 @@ a.logo:hover {
   overflow: visible;
   position: relative;
   box-sizing: border-box;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
 }
 
 .horizontal-group-wrapper-static.dense-layout {
@@ -85,15 +88,290 @@ a.logo:hover {
   gap: 0.3rem;
 }
 
-.group-stack-static {
+/*.group-stack-static {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
-}
+}*/ /* */ 
+
+/*.group-stack-static {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 360px;*/ /* Or adjust based on how tall you want the column before wrapping */
+  /*align-items: center;
+  gap: 5px;
+  align-content: center;     */ /* Horizontally center the columns */
+  /*justify-content: flex-end; */ /* Make new columns start from bottom */
+/*}
+
 
 .group-label-bottom-static {
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-align: center;
+  white-space: nowrap;
+}*/
+
+/* 🔽 Project Cards */
+/*.project-card {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(2.5) translate(10%, -10%);
+  transform-origin: center center;
+  z-index: 9999;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.project-title {
+  display: none;
+}
+
+.project-card:hover .project-title {
+  display: block;
+  bottom: -24px;
+}*/
+
+/* 🔽 Footer */
+/*.footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  background-color: #f2f2f2;
+  color: #333;
+  margin-top: 3rem;
+}*/
+
+/* 🔽 Unified Filter Bar with Info Left, Filters Center, All Projects Right */
+/*.filters-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+
+.filters-left,
+.filters-right {
+  flex: 0 0 auto;
+}
+
+.filters-left a,
+.filters-right button {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none; /* Prevent underline */
+/*}
+
+.filters-left a:hover,
+.filters-right button:hover {
+  color: red;
+  text-decoration: none; /* Still prevent underline on hover */
+/*}
+
+.filters-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.filter-button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.filter-button.active,
+.filter-button:hover {
+  color: red;
+}
+
+/* 🔽 Responsive spacing for smaller screens */
+/*@media (max-width: 768px) {
+  .filters-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .filters-left,
+  .filters-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .filters-center {
+    justify-content: center;
+  }
+}
+/* Make page take full height */
+/*html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Allow main content to grow and push footer */
+/*main.container {
+  flex: 1 0 auto;
+}
+
+/* Footer should stay at bottom when content is short */
+/*.footer {
+  flex-shrink: 0;
+}*/
+
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #111;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 1000;
+  margin-bottom: 5rem;
+}
+
+a.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+a.logo:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu li a.active,
+.menu li a:hover {
+  color: red;
+}
+
+.container {
+  padding: 2rem;
+}
+
+#project-list {
+  margin-bottom: 40px;
+}
+
+/* 🔽 Project Grouping Layout */
+.horizontal-group-wrapper-static {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 2rem 2rem 2rem;
+  padding: 1rem 0;
+  overflow: visible;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.horizontal-group-wrapper-static.dense-layout {
+  gap: 1.2rem;
+}
+
+.horizontal-group-wrapper-static.dense-layout .project-card {
+  width: 40px;
+  height: 40px;
+}
+
+.group-block-static {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/*.group-stack-static {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}*/
+
+.group-stack-static {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 360px; /* Or adjust based on how tall you want the column before wrapping */
+  align-items: center;
+  gap: 5px;
+  align-content: center;      /* Horizontally center the columns */
+  justify-content: flex-end;  /* Make new columns start from bottom */
+}
+
+
+.group-label-bottom-static {
+  margin-top: 0.2rem;
   font-weight: bold;
   font-size: 0.9rem;
   text-align: center;
@@ -131,12 +409,86 @@ a.logo:hover {
 }
 
 .project-title {
+  margin-top: 0.5rem;
+  background: #fff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
   display: none;
+  z-index: 9999;
+}
+
+/*.project-card-wrapper {
+  position: relative;
+  display: inline-block;
+}*/
+
+/*.project-tooltip {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 9999;
+}*/
+
+/*.project-tooltip {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 4px;
+  white-space: nowrap;
+  color: #000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 9999;
+}*/
+
+.project-tooltip {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 4px;
+  white-space: nowrap;
+  color: #000;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 10000;
+}
+
+
+.project-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /*transition: transform 0.3s ease;*/
+  display: inline-block;
+}
+
+.project-card-wrapper:hover .project-title {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .project-card:hover .project-title {
   display: block;
-  bottom: -24px;
+  /*bottom: -24px;*/
 }
 
 /* 🔽 Footer */
@@ -157,6 +509,7 @@ a.logo:hover {
   padding: 2rem;
   gap: 2rem;
   flex-wrap: wrap;
+  padding-top: 1rem;
 }
 
 .filters-left,
@@ -226,4 +579,20 @@ a.logo:hover {
   .filters-center {
     justify-content: center;
   }
+}
+/* Make page take full height */
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Allow main content to grow and push footer */
+main.container {
+  flex: 1 0 auto;
+}
+
+/* Footer should stay at bottom when content is short */
+.footer {
+  flex-shrink: 0;
 }
