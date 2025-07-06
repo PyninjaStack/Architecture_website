@@ -41,30 +41,40 @@
     "thumbnail": "assets/images/alb.jpg"
   },
   {
+    "code": "VMH",
     "title": "VM Houses",
     "year": "2005",
+    "category": "House",
     "status": "Completed",
     "scale": "12300",
     "location": "Denmark",
     "thumbnail": "assets/images/vm.jpg",
+    "images": ["assets/images/vm.jpg",
+              "assets/images/vm1.jpg",
+              "assets/images/vm2.jpg"],
+    "description": "Jess Hotel is a contemporary reinterpretation of Scandinavian resort architecture, blending nature with modern form. The Company made make good effort for this company if you want to join this come and join the company by tomorrow other wise you are not allowed to do so",
     "selected": true
   },
   {
-    "title": "ABC",
+    "code": "ABT",
+    "title": "AB Tower",
     "year": "2005",
-    "thumbnail": "assets/images/abc.png",
-    "scale": "2000",
+    "category": "Skyscraper",
     "status": "Completed",
+    "scale": "2000",
     "location": "India",
+    "thumbnail": "assets/images/abc.jpg",
     "selected": true
   },
   {
-    "title": "ZYL",
+    "code": "ZYM",
+    "title": "ZY Mall",
     "year": "2025",
-    "thumbnail": "assets/images/zyl.png",
-    "scale": "2000",
+    "category": "Mall",
     "status": "Completed",
-    "location": "Sri Lanka"
+    "scale": "2000",
+    "location": "Sri Lanka",
+    "thumbnail": "assets/images/zyl.jpg"
   },
   {
     "code": "PBK",
@@ -74,7 +84,7 @@
     "status": "In Progress",
     "scale": "13901",
     "location": "Sweden",
-    "thumbnail": "assets/images/sas.png",
+    "thumbnail": "assets/images/sas.jpg",
     "selected": true
   },
   {
@@ -85,7 +95,7 @@
     "status": "In Progress",
     "scale": "5869",
     "location": "Germany",
-    "thumbnail": "assets/images/rsf.png",
+    "thumbnail": "assets/images/rsf.jpg",
     "selected": true
   },
   {
@@ -96,7 +106,7 @@
     "status": "Completed",
     "scale": "4456",
     "location": "Germany",
-    "thumbnail": "assets/images/int.png",
+    "thumbnail": "assets/images/int.jpg",
     "selected": true
   },
   {
@@ -107,17 +117,17 @@
     "status": "In Progress",
     "scale": "14064",
     "location": "France",
-    "thumbnail": "assets/images/qzw.png"
+    "thumbnail": "assets/images/qzw.jpg"
   },
   {
     "code": "KDU",
-    "title": "Crystal Resort",
+    "title": "Crystal Library",
     "year": "2014",
     "category": "Library",
     "status": "Idea",
     "scale": "12428",
     "location": "Japan",
-    "thumbnail": "assets/images/qpm.png"
+    "thumbnail": "assets/images/qpm.jpg"
   },
   {
     "code": "GPU",
@@ -127,7 +137,7 @@
     "status": "Completed",
     "scale": "20513",
     "location": "Singapore",
-    "thumbnail": "assets/images/sso.png"
+    "thumbnail": "assets/images/sso.jpg"
   },
   {
     "code": "BZK",
@@ -137,7 +147,7 @@
     "status": "Idea",
     "scale": "5897",
     "location": "USA",
-    "thumbnail": "assets/images/lgx.png"
+    "thumbnail": "assets/images/lgx.jpg"
   },
   {
     "code": "QPY",
@@ -152,13 +162,13 @@
   },
   {
     "code": "EMO",
-    "title": "Golden Plaza",
+    "title": "Golden library",
     "year": "2017",
     "category": "Library",
     "status": "In Progress",
     "scale": "17591",
     "location": "UK",
-    "thumbnail": "assets/images/mxa.png"
+    "thumbnail": "assets/images/mxa.jpg"
   },
   {
     "code": "WZY",
@@ -182,13 +192,13 @@
   },
   {
     "code": "JAU",
-    "title": "Crystal Plaza",
+    "title": "Crystal Library",
     "year": "2010",
     "category": "Library",
     "status": "Idea",
     "scale": "12410",
     "location": "USA",
-    "thumbnail": "assets/images/jhk.png"
+    "thumbnail": "assets/images/jhk.jpg"
   },
   {
     "code": "TSO",
@@ -198,7 +208,7 @@
     "status": "Idea",
     "scale": "24760",
     "location": "France",
-    "thumbnail": "assets/images/vjh.png",
+    "thumbnail": "assets/images/vjh.jpg",
     "selected": true
   },
   {
@@ -220,7 +230,7 @@
     "status": "In Progress",
     "scale": "23538",
     "location": "India",
-    "thumbnail": "assets/images/urr.png"
+    "thumbnail": "assets/images/urr.jpg"
   },
   {
     "code": "JGH",
@@ -230,7 +240,7 @@
     "status": "Completed",
     "scale": "10055",
     "location": "Sweden",
-    "thumbnail": "assets/images/hkt.png"
+    "thumbnail": "assets/images/hkt.jpg"
   },
   {
     "code": "POG",
@@ -240,7 +250,7 @@
     "status": "In Progress",
     "scale": "23920",
     "location": "South Korea",
-    "thumbnail": "assets/images/xvo.png",
+    "thumbnail": "assets/images/xvo.jpg",
     "selected": true
   },
   {
@@ -251,7 +261,7 @@
     "status": "Completed",
     "scale": "13108",
     "location": "Denmark",
-    "thumbnail": "assets/images/uex.png"
+    "thumbnail": "assets/images/uex.jpg"
   },
   {
     "code": "AWW",
@@ -261,7 +271,7 @@
     "status": "In Progress",
     "scale": "3261",
     "location": "Mexico",
-    "thumbnail": "assets/images/jii.png"
+    "thumbnail": "assets/images/jii.jpg"
   },
   {
     "code": "AVS",
@@ -271,7 +281,7 @@
     "status": "Completed",
     "scale": "4580",
     "location": "Australia",
-    "thumbnail": "assets/images/ioa.png",
+    "thumbnail": "assets/images/ioa.jpg",
     "selected": true
   },
   {
@@ -303,7 +313,7 @@
     "status": "Completed",
     "scale": "20659",
     "location": "Canada",
-    "thumbnail": "assets/images/jlh.png",
+    "thumbnail": "assets/images/jlh.jpg",
     "selected": true
   },
   {
@@ -324,17 +334,17 @@
     "status": "In Progress",
     "scale": "11391",
     "location": "UK",
-    "thumbnail": "assets/images/kwc.png"
+    "thumbnail": "assets/images/kwc.jpg"
   },
   {
     "code": "WPN",
-    "title": "Sunset Resort",
+    "title": "Sunset Theater",
     "year": "2005",
     "category": "Theater",
     "status": "Completed",
     "scale": "14063",
     "location": "Sweden",
-    "thumbnail": "assets/images/zid.png"
+    "thumbnail": "assets/images/zid.jpg"
   },
   {
     "code": "FTW",
@@ -344,7 +354,7 @@
     "status": "Idea",
     "scale": "14158",
     "location": "UAE",
-    "thumbnail": "assets/images/oaq.png",
+    "thumbnail": "assets/images/oaq.jpg",
     "selected": true
   },
   {
@@ -355,7 +365,7 @@
     "status": "Completed",
     "scale": "2872",
     "location": "South Korea",
-    "thumbnail": "assets/images/lzw.png"
+    "thumbnail": "assets/images/lzw.jpg"
   },
   {
     "code": "DKL",
@@ -365,7 +375,7 @@
     "status": "Completed",
     "scale": "2541",
     "location": "Japan",
-    "thumbnail": "assets/images/rip.png"
+    "thumbnail": "assets/images/rip.jpg"
   },
   {
     "code": "EEM",
@@ -375,7 +385,7 @@
     "status": "Idea",
     "scale": "20178",
     "location": "UAE",
-    "thumbnail": "assets/images/gsw.png"
+    "thumbnail": "assets/images/gsw.jpg"
   },
   {
     "code": "SYD",
@@ -385,7 +395,7 @@
     "status": "UnderConstruction",
     "scale": "20178",
     "location": "UAE",
-    "thumbnail": "assets/images/syd.png",
+    "thumbnail": "assets/images/syd.jpg",
     "selected": true
   }
 ]
