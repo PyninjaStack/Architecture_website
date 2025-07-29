@@ -19,7 +19,20 @@ body {
   margin-bottom: 5rem;
 }
 
+/*a.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+a.logo:hover {
+  text-decoration: underline;
+}*/
+
 a.logo {
+  display: flex;
+  align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -29,6 +42,14 @@ a.logo {
 a.logo:hover {
   text-decoration: underline;
 }
+
+.logo-image {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+  border-radius: 1rem;
+}
+
 
 .menu {
   list-style: none;
@@ -201,12 +222,30 @@ a.logo:hover {
 /* 🔽 Footer */
 .footer {
   text-align: center;
-  padding: 1.5rem;
+  padding: 0.1rem;
   font-size: 0.9rem;
   background-color: #f2f2f2;
   color: #333;
-  margin-top: 3rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
+
+/* Footer should stay at bottom when content is short */
+.footer {
+  flex-shrink: 0;
+}
+
+.footer-credit a {
+  text-decoration: none;
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.footer-credit a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
 
 /* 🔽 Unified Filter Bar with Info Left, Filters Center, All Projects Right */
 .filters-bar {
@@ -299,13 +338,9 @@ main.container {
   flex: 1 0 auto;
 }
 
-/* Footer should stay at bottom when content is short */
-.footer {
-  flex-shrink: 0;
-}
-
 .project-card-wrapper {
   text-decoration: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 .project-card-wrapper a {
@@ -316,3 +351,21 @@ main.container {
 .project-card-wrapper a:hover {
   text-decoration: none;
 }
+
+/* Info sliding container */
+#info-slide-container {
+  position: fixed;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  z-index: 10000;
+  transition: top 0.7s ease-in-out;
+  overflow-y: auto;
+}
+
+#info-slide-container.active {
+  top: 0;
+}
+

@@ -397,5 +397,1200 @@
     "location": "UAE",
     "thumbnail": "assets/images/syd.jpg",
     "selected": true
+  },
+
+
+
+  {
+    "code": "SSX",
+    "title": "Solaris Spa",
+    "year": "2013",
+    "category": "Villa",
+    "status": "Completed",
+    "scale": "22837",
+    "location": "Denmark",
+    "thumbnail": "assets/images/ssx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2021",
+    "category": "Library",
+    "status": "UnderConstruction",
+    "scale": "6706",
+    "location": "Brazil",
+    "thumbnail": "assets/images/avx.jpg",
+    "images": [
+      "assets/images/avx.jpg",
+      "assets/images/avx1.jpg",
+      "assets/images/avx2.jpg"
+    ]
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2014",
+    "category": "Gallery",
+    "status": "UnderConstruction",
+    "scale": "23374",
+    "location": "Japan",
+    "thumbnail": "assets/images/npx.jpg"
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2008",
+    "category": "Resort",
+    "status": "In Progress",
+    "scale": "23593",
+    "location": "Norway",
+    "thumbnail": "assets/images/ntx.jpg",
+    "selected": true
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2017",
+    "category": "House",
+    "status": "In Progress",
+    "scale": "5704",
+    "location": "Denmark",
+    "thumbnail": "assets/images/avx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2013",
+    "category": "House",
+    "status": "Idea",
+    "scale": "15801",
+    "location": "India",
+    "thumbnail": "assets/images/avx.jpg",
+    "images": [
+      "assets/images/avx.jpg",
+      "assets/images/avx1.jpg",
+      "assets/images/avx2.jpg"
+    ],
+    "description": "Arctic Villa is a prominent example of modern house design located in India."
+  },
+  {
+    "code": "ELX",
+    "title": "Echo Library",
+    "year": "2018",
+    "category": "Resort",
+    "status": "Completed",
+    "scale": "19311",
+    "location": "Germany",
+    "thumbnail": "assets/images/elx.jpg",
+    "images": [
+      "assets/images/elx.jpg",
+      "assets/images/elx1.jpg",
+      "assets/images/elx2.jpg"
+    ]
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2018",
+    "category": "Library",
+    "status": "Completed",
+    "scale": "17279",
+    "location": "Denmark",
+    "thumbnail": "assets/images/sdx.jpg"
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2023",
+    "category": "Library",
+    "status": "Idea",
+    "scale": "21737",
+    "location": "India",
+    "thumbnail": "assets/images/sdx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2016",
+    "category": "Skyscraper",
+    "status": "UnderConstruction",
+    "scale": "11552",
+    "location": "France",
+    "thumbnail": "assets/images/avx.jpg",
+    "images": [
+      "assets/images/avx.jpg",
+      "assets/images/avx1.jpg",
+      "assets/images/avx2.jpg"
+    ]
+  },
+  {
+    "code": "ACX",
+    "title": "Aurora Center",
+    "year": "2003",
+    "category": "Library",
+    "status": "UnderConstruction",
+    "scale": "21965",
+    "location": "Norway",
+    "thumbnail": "assets/images/acx.jpg"
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2008",
+    "category": "Gallery",
+    "status": "Idea",
+    "scale": "12567",
+    "location": "Brazil",
+    "thumbnail": "assets/images/sdx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2013",
+    "category": "Library",
+    "status": "Completed",
+    "scale": "10103",
+    "location": "France",
+    "thumbnail": "assets/images/avx.jpg",
+    "images": [
+      "assets/images/avx.jpg",
+      "assets/images/avx1.jpg",
+      "assets/images/avx2.jpg"
+    ]
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2014",
+    "category": "Museum",
+    "status": "Completed",
+    "scale": "17903",
+    "location": "India",
+    "thumbnail": "assets/images/avx.jpg"
+  },
+  {
+    "code": "ACX",
+    "title": "Aurora Center",
+    "year": "2016",
+    "category": "House",
+    "status": "UnderConstruction",
+    "scale": "15052",
+    "location": "India",
+    "thumbnail": "assets/images/acx.jpg",
+    "selected": true
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2021",
+    "category": "Gallery",
+    "status": "Idea",
+    "scale": "15951",
+    "location": "Japan",
+    "thumbnail": "assets/images/opx.jpg"
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2007",
+    "category": "House",
+    "status": "Idea",
+    "scale": "19262",
+    "location": "France",
+    "thumbnail": "assets/images/opx.jpg",
+    "description": "Ocean Plaza is a prominent example of modern house design located in France."
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2019",
+    "category": "Skyscraper",
+    "status": "Completed",
+    "scale": "13545",
+    "location": "India",
+    "thumbnail": "assets/images/opx.jpg",
+    "description": "Ocean Plaza is a prominent example of modern skyscraper design located in India."
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2000",
+    "category": "Park",
+    "status": "Idea",
+    "scale": "6437",
+    "location": "India",
+    "thumbnail": "assets/images/ntx.jpg",
+    "images": [
+      "assets/images/ntx.jpg",
+      "assets/images/ntx1.jpg",
+      "assets/images/ntx2.jpg"
+    ]
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2005",
+    "category": "Skyscraper",
+    "status": "Completed",
+    "scale": "18749",
+    "location": "Brazil",
+    "thumbnail": "assets/images/ntx.jpg",
+    "description": "Nordic Tower is a prominent example of modern skyscraper design located in Brazil."
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2010",
+    "category": "Hotel",
+    "status": "In Progress",
+    "scale": "15953",
+    "location": "Norway",
+    "thumbnail": "assets/images/opx.jpg"
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2016",
+    "category": "Hotel",
+    "status": "UnderConstruction",
+    "scale": "8406",
+    "location": "France",
+    "thumbnail": "assets/images/ntx.jpg",
+    "images": [
+      "assets/images/ntx.jpg",
+      "assets/images/ntx1.jpg",
+      "assets/images/ntx2.jpg"
+    ],
+    "description": "Nordic Tower is a prominent example of modern hotel design located in France."
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2012",
+    "category": "Hotel",
+    "status": "Idea",
+    "scale": "13411",
+    "location": "USA",
+    "thumbnail": "assets/images/npx.jpg"
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2007",
+    "category": "Park",
+    "status": "In Progress",
+    "scale": "12260",
+    "location": "USA",
+    "thumbnail": "assets/images/ntx.jpg",
+    "description": "Nordic Tower is a prominent example of modern park design located in USA."
+  },
+  {
+    "code": "SSX",
+    "title": "Solaris Spa",
+    "year": "2003",
+    "category": "Resort",
+    "status": "Completed",
+    "scale": "11986",
+    "location": "Japan",
+    "thumbnail": "assets/images/ssx.jpg",
+    "description": "Solaris Spa is a prominent example of modern resort design located in Japan."
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2016",
+    "category": "Gallery",
+    "status": "Completed",
+    "scale": "12556",
+    "location": "India",
+    "thumbnail": "assets/images/avx.jpg",
+    "description": "Arctic Villa is a prominent example of modern gallery design located in India."
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2017",
+    "category": "Hotel",
+    "status": "UnderConstruction",
+    "scale": "12121",
+    "location": "UAE",
+    "thumbnail": "assets/images/npx.jpg",
+    "images": [
+      "assets/images/npx.jpg",
+      "assets/images/npx1.jpg",
+      "assets/images/npx2.jpg"
+    ],
+    "selected": true
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2001",
+    "category": "House",
+    "status": "Idea",
+    "scale": "14578",
+    "location": "Norway",
+    "thumbnail": "assets/images/ntx.jpg"
+  },
+  {
+    "code": "ELX",
+    "title": "Echo Library",
+    "year": "2000",
+    "category": "Museum",
+    "status": "In Progress",
+    "scale": "15851",
+    "location": "Japan",
+    "thumbnail": "assets/images/elx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2021",
+    "category": "Museum",
+    "status": "In Progress",
+    "scale": "22524",
+    "location": "Brazil",
+    "thumbnail": "assets/images/avx.jpg",
+    "selected": true
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2000",
+    "category": "Hotel",
+    "status": "UnderConstruction",
+    "scale": "14949",
+    "location": "UAE",
+    "thumbnail": "assets/images/opx.jpg",
+    "selected": true
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2016",
+    "category": "Hotel",
+    "status": "UnderConstruction",
+    "scale": "10659",
+    "location": "France",
+    "thumbnail": "assets/images/sdx.jpg"
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2024",
+    "category": "Resort",
+    "status": "UnderConstruction",
+    "scale": "18596",
+    "location": "Denmark",
+    "thumbnail": "assets/images/npx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2007",
+    "category": "Park",
+    "status": "Completed",
+    "scale": "14377",
+    "location": "Denmark",
+    "thumbnail": "assets/images/avx.jpg"
+  },
+  {
+    "code": "ZGX",
+    "title": "Zenith Gallery",
+    "year": "2015",
+    "category": "Resort",
+    "status": "Completed",
+    "scale": "4405",
+    "location": "Norway",
+    "thumbnail": "assets/images/zgx.jpg",
+    "images": [
+      "assets/images/zgx.jpg",
+      "assets/images/zgx1.jpg",
+      "assets/images/zgx2.jpg"
+    ]
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2005",
+    "category": "Gallery",
+    "status": "Idea",
+    "scale": "22974",
+    "location": "Norway",
+    "thumbnail": "assets/images/sdx.jpg",
+    "description": "Skyline Dome is a prominent example of modern gallery design located in Norway.",
+    "selected": true
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2011",
+    "category": "Park",
+    "status": "Completed",
+    "scale": "13248",
+    "location": "France",
+    "thumbnail": "assets/images/ntx.jpg",
+    "images": [
+      "assets/images/ntx.jpg",
+      "assets/images/ntx1.jpg",
+      "assets/images/ntx2.jpg"
+    ],
+    "selected": true
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2023",
+    "category": "Park",
+    "status": "Completed",
+    "scale": "19353",
+    "location": "Norway",
+    "thumbnail": "assets/images/npx.jpg",
+    "description": "Nebula Park is a prominent example of modern park design located in Norway.",
+    "selected": true
+  },
+  {
+    "code": "ACX",
+    "title": "Aurora Center",
+    "year": "2019",
+    "category": "Hotel",
+    "status": "In Progress",
+    "scale": "14128",
+    "location": "Germany",
+    "thumbnail": "assets/images/acx.jpg",
+    "images": [
+      "assets/images/acx.jpg",
+      "assets/images/acx1.jpg",
+      "assets/images/acx2.jpg"
+    ],
+    "selected": true
+  },
+  {
+    "code": "ELX",
+    "title": "Echo Library",
+    "year": "2013",
+    "category": "Skyscraper",
+    "status": "UnderConstruction",
+    "scale": "6951",
+    "location": "Norway",
+    "thumbnail": "assets/images/elx.jpg",
+    "selected": true
+  },
+  {
+    "code": "SSX",
+    "title": "Solaris Spa",
+    "year": "2013",
+    "category": "Villa",
+    "status": "Completed",
+    "scale": "9156",
+    "location": "Norway",
+    "thumbnail": "assets/images/ssx.jpg",
+    "images": [
+      "assets/images/ssx.jpg",
+      "assets/images/ssx1.jpg",
+      "assets/images/ssx2.jpg"
+    ]
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2018",
+    "category": "Library",
+    "status": "Idea",
+    "scale": "16865",
+    "location": "Denmark",
+    "thumbnail": "assets/images/avx.jpg",
+    "images": [
+      "assets/images/avx.jpg",
+      "assets/images/avx1.jpg",
+      "assets/images/avx2.jpg"
+    ]
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2021",
+    "category": "Museum",
+    "status": "In Progress",
+    "scale": "16143",
+    "location": "Norway",
+    "thumbnail": "assets/images/ntx.jpg",
+    "images": [
+      "assets/images/ntx.jpg",
+      "assets/images/ntx1.jpg",
+      "assets/images/ntx2.jpg"
+    ],
+    "description": "Nordic Tower is a prominent example of modern museum design located in Norway."
+  },
+  {
+    "code": "LHX",
+    "title": "Lumen Hotel",
+    "year": "2004",
+    "category": "House",
+    "status": "UnderConstruction",
+    "scale": "8036",
+    "location": "Japan",
+    "thumbnail": "assets/images/lhx.jpg",
+    "selected": true
+  },
+  {
+    "code": "SSX",
+    "title": "Solaris Spa",
+    "year": "2013",
+    "category": "Skyscraper",
+    "status": "Completed",
+    "scale": "4253",
+    "location": "Canada",
+    "thumbnail": "assets/images/ssx.jpg",
+    "selected": true
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2024",
+    "category": "House",
+    "status": "In Progress",
+    "scale": "19598",
+    "location": "Brazil",
+    "thumbnail": "assets/images/npx.jpg",
+    "selected": true
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2021",
+    "category": "House",
+    "status": "Completed",
+    "scale": "8244",
+    "location": "India",
+    "thumbnail": "assets/images/sdx.jpg",
+    "selected": true
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2013",
+    "category": "Library",
+    "status": "UnderConstruction",
+    "scale": "6377",
+    "location": "USA",
+    "thumbnail": "assets/images/ntx.jpg",
+    "images": [
+      "assets/images/ntx.jpg",
+      "assets/images/ntx1.jpg",
+      "assets/images/ntx2.jpg"
+    ]
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2016",
+    "category": "House",
+    "status": "In Progress",
+    "scale": "24773",
+    "location": "Norway",
+    "thumbnail": "assets/images/avx.jpg"
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2020",
+    "category": "Skyscraper",
+    "status": "UnderConstruction",
+    "scale": "19342",
+    "location": "Norway",
+    "thumbnail": "assets/images/opx.jpg"
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2004",
+    "category": "House",
+    "status": "In Progress",
+    "scale": "16392",
+    "location": "Canada",
+    "thumbnail": "assets/images/sdx.jpg"
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2000",
+    "category": "Gallery",
+    "status": "In Progress",
+    "scale": "11269",
+    "location": "Japan",
+    "thumbnail": "assets/images/opx.jpg",
+    "images": [
+      "assets/images/opx.jpg",
+      "assets/images/opx1.jpg",
+      "assets/images/opx2.jpg"
+    ]
+  },
+  {
+    "code": "ELX",
+    "title": "Echo Library",
+    "year": "2000",
+    "category": "Gallery",
+    "status": "Completed",
+    "scale": "18288",
+    "location": "UAE",
+    "thumbnail": "assets/images/elx.jpg"
+  },
+  {
+    "code": "ELX",
+    "title": "Echo Library",
+    "year": "2010",
+    "category": "Library",
+    "status": "In Progress",
+    "scale": "5566",
+    "location": "Norway",
+    "thumbnail": "assets/images/elx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2019",
+    "category": "Museum",
+    "status": "In Progress",
+    "scale": "21307",
+    "location": "India",
+    "thumbnail": "assets/images/avx.jpg",
+    "images": [
+      "assets/images/avx.jpg",
+      "assets/images/avx1.jpg",
+      "assets/images/avx2.jpg"
+    ]
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2014",
+    "category": "Park",
+    "status": "Idea",
+    "scale": "12428",
+    "location": "Brazil",
+    "thumbnail": "assets/images/sdx.jpg"
+  },
+  {
+    "code": "ELX",
+    "title": "Echo Library",
+    "year": "2009",
+    "category": "Museum",
+    "status": "Idea",
+    "scale": "15448",
+    "location": "Germany",
+    "thumbnail": "assets/images/elx.jpg",
+    "description": "Echo Library is a prominent example of modern museum design located in Germany."
+  },
+  {
+    "code": "SSX",
+    "title": "Solaris Spa",
+    "year": "2011",
+    "category": "House",
+    "status": "In Progress",
+    "scale": "19430",
+    "location": "Canada",
+    "thumbnail": "assets/images/ssx.jpg",
+    "description": "Solaris Spa is a prominent example of modern house design located in Canada."
+  },
+  {
+    "code": "LHX",
+    "title": "Lumen Hotel",
+    "year": "2003",
+    "category": "House",
+    "status": "Completed",
+    "scale": "5351",
+    "location": "Canada",
+    "thumbnail": "assets/images/lhx.jpg",
+    "images": [
+      "assets/images/lhx.jpg",
+      "assets/images/lhx1.jpg",
+      "assets/images/lhx2.jpg"
+    ]
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2018",
+    "category": "Library",
+    "status": "Completed",
+    "scale": "8146",
+    "location": "Germany",
+    "thumbnail": "assets/images/opx.jpg"
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2009",
+    "category": "Skyscraper",
+    "status": "In Progress",
+    "scale": "9986",
+    "location": "UAE",
+    "thumbnail": "assets/images/opx.jpg"
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2001",
+    "category": "Villa",
+    "status": "Completed",
+    "scale": "10859",
+    "location": "Germany",
+    "thumbnail": "assets/images/opx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2003",
+    "category": "Museum",
+    "status": "In Progress",
+    "scale": "21821",
+    "location": "Germany",
+    "thumbnail": "assets/images/avx.jpg"
+  },
+  {
+    "code": "LHX",
+    "title": "Lumen Hotel",
+    "year": "2008",
+    "category": "Resort",
+    "status": "In Progress",
+    "scale": "6932",
+    "location": "UAE",
+    "thumbnail": "assets/images/lhx.jpg",
+    "images": [
+      "assets/images/lhx.jpg",
+      "assets/images/lhx1.jpg",
+      "assets/images/lhx2.jpg"
+    ]
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2003",
+    "category": "Library",
+    "status": "In Progress",
+    "scale": "18229",
+    "location": "Denmark",
+    "thumbnail": "assets/images/ntx.jpg"
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2018",
+    "category": "Park",
+    "status": "Completed",
+    "scale": "14251",
+    "location": "Canada",
+    "thumbnail": "assets/images/sdx.jpg"
+  },
+  {
+    "code": "LHX",
+    "title": "Lumen Hotel",
+    "year": "2004",
+    "category": "Museum",
+    "status": "In Progress",
+    "scale": "15648",
+    "location": "India",
+    "thumbnail": "assets/images/lhx.jpg"
+  },
+  {
+    "code": "LHX",
+    "title": "Lumen Hotel",
+    "year": "2003",
+    "category": "House",
+    "status": "In Progress",
+    "scale": "24738",
+    "location": "UAE",
+    "thumbnail": "assets/images/lhx.jpg"
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2019",
+    "category": "Hotel",
+    "status": "UnderConstruction",
+    "scale": "9387",
+    "location": "Japan",
+    "thumbnail": "assets/images/ntx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2006",
+    "category": "Skyscraper",
+    "status": "In Progress",
+    "scale": "20714",
+    "location": "USA",
+    "thumbnail": "assets/images/avx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2022",
+    "category": "House",
+    "status": "Completed",
+    "scale": "12460",
+    "location": "India",
+    "thumbnail": "assets/images/avx.jpg",
+    "images": [
+      "assets/images/avx.jpg",
+      "assets/images/avx1.jpg",
+      "assets/images/avx2.jpg"
+    ]
+  },
+  {
+    "code": "SSX",
+    "title": "Solaris Spa",
+    "year": "2018",
+    "category": "Gallery",
+    "status": "Idea",
+    "scale": "9816",
+    "location": "Norway",
+    "thumbnail": "assets/images/ssx.jpg",
+    "images": [
+      "assets/images/ssx.jpg",
+      "assets/images/ssx1.jpg",
+      "assets/images/ssx2.jpg"
+    ],
+    "description": "Solaris Spa is a prominent example of modern gallery design located in Norway."
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2002",
+    "category": "Hotel",
+    "status": "In Progress",
+    "scale": "6373",
+    "location": "Germany",
+    "thumbnail": "assets/images/opx.jpg",
+    "images": [
+      "assets/images/opx.jpg",
+      "assets/images/opx1.jpg",
+      "assets/images/opx2.jpg"
+    ]
+  },
+  {
+    "code": "LHX",
+    "title": "Lumen Hotel",
+    "year": "2021",
+    "category": "Villa",
+    "status": "UnderConstruction",
+    "scale": "20201",
+    "location": "Germany",
+    "thumbnail": "assets/images/lhx.jpg"
+  },
+  {
+    "code": "ACX",
+    "title": "Aurora Center",
+    "year": "2009",
+    "category": "Resort",
+    "status": "UnderConstruction",
+    "scale": "15364",
+    "location": "Brazil",
+    "thumbnail": "assets/images/acx.jpg",
+    "description": "Aurora Center is a prominent example of modern resort design located in Brazil.",
+    "selected": true
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2020",
+    "category": "Villa",
+    "status": "Idea",
+    "scale": "24583",
+    "location": "India",
+    "thumbnail": "assets/images/ntx.jpg",
+    "selected": true
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2019",
+    "category": "Library",
+    "status": "Idea",
+    "scale": "4545",
+    "location": "USA",
+    "thumbnail": "assets/images/npx.jpg",
+    "images": [
+      "assets/images/npx.jpg",
+      "assets/images/npx1.jpg",
+      "assets/images/npx2.jpg"
+    ]
+  },
+  {
+    "code": "SSX",
+    "title": "Solaris Spa",
+    "year": "2020",
+    "category": "Museum",
+    "status": "Completed",
+    "scale": "4656",
+    "location": "Canada",
+    "thumbnail": "assets/images/ssx.jpg"
+  },
+  {
+    "code": "ACX",
+    "title": "Aurora Center",
+    "year": "2004",
+    "category": "Gallery",
+    "status": "In Progress",
+    "scale": "10113",
+    "location": "Japan",
+    "thumbnail": "assets/images/acx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2020",
+    "category": "Library",
+    "status": "Completed",
+    "scale": "15946",
+    "location": "Japan",
+    "thumbnail": "assets/images/avx.jpg"
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2022",
+    "category": "Resort",
+    "status": "In Progress",
+    "scale": "21472",
+    "location": "Canada",
+    "thumbnail": "assets/images/npx.jpg",
+    "description": "Nebula Park is a prominent example of modern resort design located in Canada."
+  },
+  {
+    "code": "ZGX",
+    "title": "Zenith Gallery",
+    "year": "2014",
+    "category": "Park",
+    "status": "Completed",
+    "scale": "24518",
+    "location": "Japan",
+    "thumbnail": "assets/images/zgx.jpg"
+  },
+  {
+    "code": "ACX",
+    "title": "Aurora Center",
+    "year": "2002",
+    "category": "Gallery",
+    "status": "Completed",
+    "scale": "22530",
+    "location": "UAE",
+    "thumbnail": "assets/images/acx.jpg",
+    "images": [
+      "assets/images/acx.jpg",
+      "assets/images/acx1.jpg",
+      "assets/images/acx2.jpg"
+    ]
+  },
+  {
+    "code": "ACX",
+    "title": "Aurora Center",
+    "year": "2023",
+    "category": "Resort",
+    "status": "UnderConstruction",
+    "scale": "7109",
+    "location": "India",
+    "thumbnail": "assets/images/acx.jpg",
+    "images": [
+      "assets/images/acx.jpg",
+      "assets/images/acx1.jpg",
+      "assets/images/acx2.jpg"
+    ]
+  },
+  {
+    "code": "SSX",
+    "title": "Solaris Spa",
+    "year": "2011",
+    "category": "Resort",
+    "status": "Completed",
+    "scale": "16476",
+    "location": "Norway",
+    "thumbnail": "assets/images/ssx.jpg"
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2005",
+    "category": "Resort",
+    "status": "Idea",
+    "scale": "18167",
+    "location": "France",
+    "thumbnail": "assets/images/npx.jpg"
+  },
+  {
+    "code": "AVX",
+    "title": "Arctic Villa",
+    "year": "2015",
+    "category": "Skyscraper",
+    "status": "In Progress",
+    "scale": "23776",
+    "location": "France",
+    "thumbnail": "assets/images/avx.jpg"
+  },
+  {
+    "code": "SDX",
+    "title": "Skyline Dome",
+    "year": "2003",
+    "category": "Skyscraper",
+    "status": "Completed",
+    "scale": "23268",
+    "location": "India",
+    "thumbnail": "assets/images/sdx.jpg"
+  },
+  {
+    "code": "ACX",
+    "title": "Aurora Center",
+    "year": "2021",
+    "category": "House",
+    "status": "Completed",
+    "scale": "23631",
+    "location": "Japan",
+    "thumbnail": "assets/images/acx.jpg",
+    "images": [
+      "assets/images/acx.jpg",
+      "assets/images/acx1.jpg",
+      "assets/images/acx2.jpg"
+    ]
+  },
+  {
+    "code": "ELX",
+    "title": "Echo Library",
+    "year": "2003",
+    "category": "Skyscraper",
+    "status": "Idea",
+    "scale": "22086",
+    "location": "Brazil",
+    "thumbnail": "assets/images/elx.jpg"
+  },
+  {
+    "code": "ELX",
+    "title": "Echo Library",
+    "year": "2005",
+    "category": "Gallery",
+    "status": "Completed",
+    "scale": "5316",
+    "location": "France",
+    "thumbnail": "assets/images/elx.jpg",
+    "images": [
+      "assets/images/elx.jpg",
+      "assets/images/elx1.jpg",
+      "assets/images/elx2.jpg"
+    ]
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2011",
+    "category": "Museum",
+    "status": "UnderConstruction",
+    "scale": "8241",
+    "location": "India",
+    "thumbnail": "assets/images/ntx.jpg"
+  },
+  {
+    "code": "OPX",
+    "title": "Ocean Plaza",
+    "year": "2002",
+    "category": "Library",
+    "status": "In Progress",
+    "scale": "17459",
+    "location": "Brazil",
+    "thumbnail": "assets/images/opx.jpg",
+    "images": [
+      "assets/images/opx.jpg",
+      "assets/images/opx1.jpg",
+      "assets/images/opx2.jpg"
+    ]
+  },
+  {
+    "code": "LHX",
+    "title": "Lumen Hotel",
+    "year": "2007",
+    "category": "Gallery",
+    "status": "Completed",
+    "scale": "20120",
+    "location": "Brazil",
+    "thumbnail": "assets/images/lhx.jpg",
+    "images": [
+      "assets/images/lhx.jpg",
+      "assets/images/lhx1.jpg",
+      "assets/images/lhx2.jpg"
+    ]
+  },
+  {
+    "code": "ZGX",
+    "title": "Zenith Gallery",
+    "year": "2012",
+    "category": "Hotel",
+    "status": "Idea",
+    "scale": "19369",
+    "location": "Denmark",
+    "thumbnail": "assets/images/zgx.jpg"
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2019",
+    "category": "House",
+    "status": "In Progress",
+    "scale": "24203",
+    "location": "Brazil",
+    "thumbnail": "assets/images/npx.jpg"
+  },
+  {
+    "code": "NPX",
+    "title": "Nebula Park",
+    "year": "2024",
+    "category": "Resort",
+    "status": "UnderConstruction",
+    "scale": "8191",
+    "location": "UAE",
+    "thumbnail": "assets/images/npx.jpg"
+  },
+  {
+    "code": "ACX",
+    "title": "Aurora Center",
+    "year": "2001",
+    "category": "Skyscraper",
+    "status": "In Progress",
+    "scale": "20701",
+    "location": "Canada",
+    "thumbnail": "assets/images/acx.jpg",
+    "images": [
+      "assets/images/acx.jpg",
+      "assets/images/acx1.jpg",
+      "assets/images/acx2.jpg"
+    ],
+    "selected": true
+  },
+  {
+    "code": "SSX",
+    "title": "Solaris Spa",
+    "year": "2009",
+    "category": "Park",
+    "status": "Completed",
+    "scale": "16660",
+    "location": "France",
+    "thumbnail": "assets/images/ssx.jpg",
+    "selected": true
+  },
+  {
+    "code": "NTX",
+    "title": "Nordic Tower",
+    "year": "2019",
+    "category": "House",
+    "status": "Completed",
+    "scale": "5001",
+    "location": "Denmark",
+    "thumbnail": "assets/images/ntx.jpg",
+    "images": [
+      "assets/images/ntx.jpg",
+      "assets/images/ntx1.jpg",
+      "assets/images/ntx2.jpg"
+    ]
   }
+
 ]
+
+
