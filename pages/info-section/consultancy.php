@@ -5,7 +5,7 @@
   <?php include '../../components/info-menu.php'; ?>
 
   <section class="info-content">
-    <h1>Lectures</h1>
+    <h1>Consultancy</h1>
     <p>Explore lectures and speaking events hosted or attended by Positive Space Design Studio team members.</p>
   </section>
 </main>

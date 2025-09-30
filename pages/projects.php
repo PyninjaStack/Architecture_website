@@ -1,6 +1,12 @@
 <?php include '../components/header.php'; ?>
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/projects.css">
+<script src="../assets/js/main.js" defer></script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+
+
 
 <?php
 // Get project code from URL
@@ -54,6 +60,108 @@ if ($code && $projects) {
         </div>
       <?php endif; ?>
 
+    <div class="project-footer">
+      <!-- Social Media Section -->
+      <div class="social-icons project-social">
+        <!-- Instagram -->
+        <div class="social-icon-wrapper">
+          <a href="https://instagram.com/yourprofile" target="_blank">
+            <img src="/Positive Space Design Studio/assets/icons/instagram.jpg" alt="Instagram" />
+          </a>
+          <img src="/Positive Space Design Studio/assets/icons/share.jpg" 
+              class="share-icon" 
+              alt="Share" 
+              data-share-url="https://instagram.com/yourprofile" />
+        </div>
+
+        <!-- Facebook -->
+        <div class="social-icon-wrapper">
+          <a href="https://facebook.com/yourprofile" target="_blank">
+            <img src="/Positive Space Design Studio/assets/icons/facebook.jpg" alt="Facebook" />
+          </a>
+          <img src="/Positive Space Design Studio/assets/icons/share.jpg" 
+              class="share-icon" 
+              alt="Share" 
+              data-share-url="https://facebook.com/yourprofile" />
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="social-icon-wrapper">
+          <a href="https://linkedin.com/in/yourprofile" target="_blank">
+            <img src="/Positive Space Design Studio/assets/icons/linkedin.jpg" alt="LinkedIn" />
+          </a>
+          <img src="/Positive Space Design Studio/assets/icons/share.jpg" 
+              class="share-icon" 
+              alt="Share" 
+              data-share-url="https://linkedin.com/in/yourprofile" />
+        </div>
+
+        <!-- Twitter -->
+        <div class="social-icon-wrapper">
+          <a href="https://twitter.com/yourprofile" target="_blank">
+            <img src="/Positive Space Design Studio/assets/icons/twitter.jpg" alt="Twitter" />
+          </a>
+          <img src="/Positive Space Design Studio/assets/icons/share.jpg" 
+              class="share-icon" 
+              alt="Share" 
+              data-share-url="https://twitter.com/yourprofile" />
+        </div>
+
+        <!-- Gmail -->
+        <div class="social-icon-wrapper">
+          <a href="mailto:your@email.com">
+            <img src="/Positive Space Design Studio/assets/icons/gmail.jpg" alt="Gmail" />
+          </a>
+          <img src="/Positive Space Design Studio/assets/icons/share.jpg" 
+              class="share-icon" 
+              alt="Share" 
+              data-share-url="mailto:your@email.com" />
+        </div>
+
+        <!-- YouTube -->
+        <div class="social-icon-wrapper">
+          <a href="https://youtube.com/yourprofile" target="_blank">
+            <img src="/Positive Space Design Studio/assets/icons/youtube.jpg" alt="YouTube" />
+          </a>
+          <img src="/Positive Space Design Studio/assets/icons/share.jpg" 
+              class="share-icon" 
+              alt="Share" 
+              data-share-url="https://youtube.com/yourprofile" />
+        </div>
+
+        <!-- Pinterest -->
+        <div class="social-icon-wrapper">
+          <a href="https://pinterest.com/yourprofile" target="_blank">
+            <img src="/Positive Space Design Studio/assets/icons/pinterest.jpg" alt="Pinterest" />
+          </a>
+          <img src="/Positive Space Design Studio/assets/icons/share.jpg" 
+              class="share-icon" 
+              alt="Share" 
+              data-share-url="https://pinterest.com/yourprofile" />
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="social-icon-wrapper">
+          <a href="https://wa.me/911234567890" target="_blank">
+            <img src="/Positive Space Design Studio/assets/icons/whatsapp.jpg" alt="WhatsApp" />
+          </a>
+          <img src="/Positive Space Design Studio/assets/icons/share.jpg" 
+              class="share-icon" 
+              alt="Share" 
+              data-share-url="https://wa.me/911234567890" />
+        </div>
+        </div>
+        <div class="project-actions">
+          <!-- <button class="like-btn" data-id="<?= $project['id'] ?>">👍 Like (<span id="like-count-<?= $project['id'] ?>"><?= $project['likes'] ?></span>)</button>
+          <button class="dislike-btn" data-id="<?= $project['id'] ?>">👎 Dislike (<span id="dislike-count-<?= $project['id'] ?>"><?= $project['dislikes'] ?></span>)</button> -->
+          <button class="share-btn" data-url="https://yourdomain.com/projects.php?code=<?= urlencode($project['code']) ?>">📤 Share</button>
+        </div>
+      </div>
+    
+
+      
+
+
       <div class="project-info">
         <ul>
           <li><strong>Year:</strong> <?= htmlspecialchars($project['year']) ?></li>
@@ -68,6 +176,14 @@ if ($code && $projects) {
     <div class="project-description">
         <p><?= nl2br(htmlspecialchars($project['description'])) ?></p>
     </div>
+    <?php endif; ?>
+
+    <!-- ✅ Project Location Map Section -->
+    <?php if (!empty($project['latitude']) && !empty($project['longitude'])): ?>
+      <section id="map-section" class="project-location-map">
+        <h2>Project Location</h2>
+        <div id="project-map" style="height: 400px; width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-top: 1rem;"></div>
+      </section>
     <?php endif; ?>
 
 
@@ -96,5 +212,34 @@ function changeSlide(n) {
   showSlide(currentSlide);
 }
 </script>
+
+<?php if (!empty($project['latitude']) && !empty($project['longitude'])): ?>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const lat = <?= json_encode($project['latitude']) ?>;
+    const lng = <?= json_encode($project['longitude']) ?>;
+
+    const map = L.map('project-map').setView([lat, lng], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    const marker = L.marker([lat, lng]).addTo(map);
+
+    // 🟢 When clicking the marker or map, open Google Maps
+    marker.on('click', () => {
+      window.open(`https://www.google.com/maps?q=${lat},${lng}`, '_blank');
+    });
+
+    map.on('click', () => {
+      window.open(`https://www.google.com/maps?q=${lat},${lng}`, '_blank');
+    });
+  });
+</script>
+<?php endif; ?>
+
+
 
 <?php include '../components/footer.php'; ?>

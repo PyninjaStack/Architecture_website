@@ -5,7 +5,7 @@
   <?php include '../../components/info-menu.php'; ?>
 
   <section class="info-content">
-    <h1>News</h1>
+    <h1>Urbanism</h1>
     <p>This page displays the latest news, articles, and updates from the firm.</p>
   </section>
 </main>

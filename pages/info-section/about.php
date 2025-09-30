@@ -6,7 +6,7 @@
   <?php include '../../components/info-menu.php'; ?>
 
   <section class="info-content">
-  <h1>ABOUT</h1>
+  <h1>ABOUT US</h1>
 
   <!-- Member 1 -->
   <div class="about-member-block">

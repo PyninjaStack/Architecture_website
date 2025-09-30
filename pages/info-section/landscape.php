@@ -5,8 +5,8 @@
   <?php include '../../components/info-menu.php'; ?>
 
   <section class="info-content">
-    <h1>Big Ideas</h1>
-    <p>This page showcases the conceptual foundations and visionary thinking behind Positive Space Design Studio’s projects.</p>
+    <h1>Landscape</h1>
+    <p>Visit the shop for books, merchandise, and exclusive items designed by Positive Space Design Studio.</p>
   </section>
 </main>
 <?php include '../../components/footer.php'; ?>

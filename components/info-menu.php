@@ -1,4 +1,4 @@
-<!-- components/info-menu.php -->
+<script src="../../assets/js/main.js" defer></script>
 
 <div class="info-section">
   <!-- 🔹 Left Vertical Sidebar Menu -->
@@ -8,18 +8,18 @@
 
     <!-- Sidebar Menu Links -->
     <ul class="info-menu-list">
-      <li><a href="about.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'about.php') echo 'active'; ?>">ABOUT</a></li>
-      <li><a href="news.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'news.php') echo 'active'; ?>">NEWS</a></li>
-      <li><a href="bigideas.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'bigideas.php') echo 'active'; ?>">BIG IDEAS</a></li>
-      <li><a href="awards.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'awards.php') echo 'active'; ?>">AWARDS</a></li>
-      <li><a href="lectures.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'lectures.php') echo 'active'; ?>">LECTURES</a></li>
+      <li><a href="about.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'about.php') echo 'active'; ?>">ABOUT US</a></li>
+      <li><a href="architecture.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'architecture.php') echo 'active'; ?>">ARCHITECTURE</a></li>
+      <li><a href="consultancy.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'consultancy.php') echo 'active'; ?>">CONSULTANCY</a></li>
+      <li><a href="landscape.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'landscape.php') echo 'active'; ?>">LANDSCAPE</a></li>
+      <li><a href="urbanism.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'urbanism.php') echo 'active'; ?>">URBANISM</a></li>
+      <li><a href="interior.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'interior.php') echo 'active'; ?>">INTERIOR</a></li>
       <li><a href="media.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'media.php') echo 'active'; ?>">MEDIA</a></li>
-      <li><a href="shop.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'shop.php') echo 'active'; ?>">SHOP</a></li>
-      <li><a href="jobs.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'jobs.php') echo 'active'; ?>">JOBS</a></li>
-       <li><a href="contact.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'active'; ?>">CONTACT</a></li>
-      <li><a href="search.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'search.php') echo 'active'; ?>">SEARCH</a></li>
+      <li><a href="art.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'art.php') echo 'active'; ?>">ART</a></li>
+      <li><a href="contact.php" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'active'; ?>">CONTACT</a></li>
+      <li><a href="search.php" id="search-text" class="info-link <?php if(basename($_SERVER['PHP_SELF']) == 'search.php') echo 'active'; ?>">SEARCH</a></li>
     </ul>
-  </aside>
+</aside>
 
  
   

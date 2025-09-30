@@ -1,3 +1,10 @@
+/* ✅ 1. Reset & Global Styles */
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
@@ -7,28 +14,18 @@ body {
   overflow-x: hidden;
 }
 
+/* ✅ 2. Navbar & Logo */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #000;
+  background: #e1e0e0;
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
   position: relative;
   z-index: 1000;
   margin-bottom: 5rem;
 }
-
-/*a.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
-}
-
-a.logo:hover {
-  text-decoration: underline;
-}*/
 
 a.logo {
   display: flex;
@@ -37,20 +34,35 @@ a.logo {
   font-weight: bold;
   text-decoration: none;
   color: #fff;
-}
-
-a.logo:hover {
-  text-decoration: underline;
+  gap: 0.4rem;
 }
 
 .logo-image {
   height: 50px;
   width: auto;
   margin-right: 10px;
-  border-radius: 1rem;
+  /*border-radius: 1rem;*/
 }
 
+.logo-primary {
+  color: #000099;
+}
 
+.logo-secondary {
+  color: #00CCFF;
+}
+
+/* .logo-primary:hover {
+  text-decoration: underline;
+  color: #000099;
+}
+
+.logo-secondary:hover {
+  text-decoration: underline;
+  color: #00ccff;
+} */
+
+/* ✅ 3. Navigation Menu */
 .menu {
   list-style: none;
   display: flex;
@@ -68,15 +80,106 @@ a.logo:hover {
   color: red;
 }
 
+/* ✅ 4. Social Toggle & Icons */
+
+.project-social .social-icons {
+  display: none;
+  align-items: center;
+  gap: 0.4rem;
+  /*margin-right: 0.5rem;*/
+}
+
+.project-social .social-icons img {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.project-social .social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.project-social .social-icon-wrapper {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.project-social .social-icon-wrapper img {
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.project-social .share-icon {
+  position: absolute;
+  top: -10px;
+  right: -6px;
+  /*width: 0px;
+  height: 0px;*/
+  display: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.project-social .social-icon-wrapper:hover .share-icon {
+  display: block;
+  opacity: 1;
+  width: 20px;
+  height: 20px;
+}
+
+#project-social social-icons {
+  display: none;
+}
+
+#project-social social-icons.visible {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+/* 🔹 Fade animation */
+@keyframes fadeInIcons {
+  from {
+    opacity: 0;
+    transform: translateX(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ✅ 5. Container & Layout */
 .container {
   padding: 2rem;
 }
 
-#project-list {
-  margin-bottom: 40px;
+main.container {
+  flex: 1 0 auto;
+  padding-bottom: 6rem;
+  position: relative;
+  box-sizing: border-box;
 }
 
-/* 🔽 Project Grouping Layout */
+/* ✅ 6. Project List */
+#project-list {
+  margin-bottom: 40px;
+  position: absolute;
+  left: auto;
+  right: auto;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 5rem;
+  box-sizing: border-box;
+}
+
+/* ✅ 7. Project Group Layouts */
 .horizontal-group-wrapper-static {
   display: flex;
   flex-direction: row;
@@ -85,7 +188,7 @@ a.logo:hover {
   justify-content: center;
   align-items: flex-end;
   margin: 0 2rem 2rem 2rem;
-  padding: 1rem 0;
+  /*padding: 10rem 0;*/
   overflow: visible;
   position: relative;
   box-sizing: border-box;
@@ -113,13 +216,21 @@ a.logo:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  max-height: 360px; /* Or adjust based on how tall you want the column before wrapping */
+  max-height: calc(100vh - 16rem); /* Or adjust based on how tall you want the column before wrapping */
   align-items: center;
   gap: 5px;
   align-content: center;      /* Horizontally center the columns */
   justify-content: flex-end;  /* Make new columns start from bottom */
 }
 
+.group-stack-static.dense-layout .project-card {
+  width: 40px;
+  height: 40px;
+}
+
+.group-stack-static.dense-layout .project-code-label {
+  font-size: 0.6rem;
+}
 
 .group-label-bottom-static {
   margin-top: 0.2rem;
@@ -129,7 +240,33 @@ a.logo:hover {
   white-space: nowrap;
 }
 
-/* 🔽 Project Cards */
+/* ✅ 8. Project Cards */
+.project-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /*transition: transform 0.3s ease;*/
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card-wrapper a:hover {
+  text-decoration: none;
+}
+
+.project-card-wrapper:hover .project-title {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .project-card {
   width: 60px;
   height: 60px;
@@ -172,6 +309,11 @@ a.logo:hover {
   z-index: 9999;
 }
 
+.project-card:hover .project-title {
+  display: block;
+  /*bottom: -24px;*/
+}
+
 .project-tooltip {
   position: absolute;
   background: rgba(255, 255, 255, 0.95);
@@ -187,27 +329,6 @@ a.logo:hover {
   z-index: 10000;
 }
 
-
-.project-card-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  /*transition: transform 0.3s ease;*/
-  display: inline-block;
-  margin-bottom: 0.7rem;
-}
-
-.project-card-wrapper:hover .project-title {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.project-card:hover .project-title {
-  display: block;
-  /*bottom: -24px;*/
-}
-
 .project-code-label {
   margin-top: 0rem;
   font-size: 0.7rem;
@@ -218,49 +339,63 @@ a.logo:hover {
   pointer-events: none;
 }
 
-
-/* 🔽 Footer */
-.footer {
-  text-align: center;
-  padding: 0.1rem;
-  font-size: 0.9rem;
-  background-color: #f2f2f2;
-  color: #333;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
+/* 🔽 Shrinking card sizes based on group density */
+.group-stack-static.shrink-1 .project-card {
+  width: 50px;
+  height: 50px;
 }
 
-/* Footer should stay at bottom when content is short */
-.footer {
-  flex-shrink: 0;
+.group-stack-static.shrink-2 .project-card {
+  width: 45px;
+  height: 45px;
 }
 
-.footer-credit a {
-  text-decoration: none;
-  color: #777;
-  font-size: 0.8rem;
+.group-stack-static.shrink-3 .project-card {
+  width: 40px;
+  height: 40px;
 }
 
-.footer-credit a:hover {
-  color: #000;
-  text-decoration: none;
+.group-stack-static.shrink-4 .project-card {
+  width: 35px;
+  height: 35px;
+}
+
+.group-stack-static.shrink-1 .project-code-label,
+.group-stack-static.shrink-2 .project-code-label,
+.group-stack-static.shrink-3 .project-code-label,
+.group-stack-static.shrink-4 .project-code-label {
+  font-size: 0.6rem;
 }
 
 
-/* 🔽 Unified Filter Bar with Info Left, Filters Center, All Projects Right */
+/* ✅ 9. Filters Bar */
 .filters-bar {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 2rem;
-  gap: 2rem;
+  align-items: center;
   flex-wrap: wrap;
-  padding-top: 1rem;
+  gap: 1rem;
+  margin-top: 2rem;        /* Create space above footer */
+  padding: 1rem 2rem;
+  background: white;
+  z-index: 1;
+  /*position: relative; */     /* Keep it in normal flow */
+  position: absolute;
+  /*eft: auto;
+  right: auto;*/
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
 }
 
 .filters-left,
 .filters-right {
   flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
 }
 
 .filters-left a,
@@ -307,65 +442,110 @@ a.logo:hover {
   color: red;
 }
 
-/* 🔽 Responsive spacing for smaller screens */
+/* ✅ 10. Footer */
+.footer {
+  text-align: center;
+  padding: 0rem;
+  font-size: 0.9rem;
+  background-color: #f2f2f2;
+  color: #333;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  flex-shrink: 0;
+}
+
+.footer p {
+  margin: 2px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer p a {
+  color: #0073e6; /* link color */
+  text-decoration: none; /* remove underline */
+  font-weight: 500; /* slightly bold */
+}
+
+.footer p a:hover {
+  text-decoration: underline; /* underline on hover */
+  color: #005bb5; /* darker shade on hover */
+}
+
+.footer-links {
+  margin-top: 0.3rem;
+}
+
+.footer-links a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ 11. Responsive */
 @media (max-width: 768px) {
   .filters-bar {
     flex-direction: column;
     align-items: center;
-    gap: 1.2rem;
   }
 
   .filters-left,
+  .filters-center,
   .filters-right {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .filters-center {
     justify-content: center;
   }
 }
-/* Make page take full height */
-html, body {
-  height: 100%;
+
+.project-footer {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  gap: 20px;
 }
 
-/* Allow main content to grow and push footer */
-main.container {
-  flex: 1 0 auto;
+.project-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.project-card-wrapper {
-  text-decoration: none;
-  transition: transform 0.3s ease-in-out;
+.project-social img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  border-radius: 6px;
 }
 
-.project-card-wrapper a {
-  text-decoration: none;
-  color: inherit;
+.project-social .share-icon {
+  display: none;
+  margin-left: 6px;
 }
 
-.project-card-wrapper a:hover {
-  text-decoration: none;
+.project-social .social-icon-wrapper:hover .share-icon {
+  display: inline-block;
 }
 
-/* Info sliding container */
-#info-slide-container {
-  position: fixed;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: white;
-  z-index: 10000;
-  transition: top 0.7s ease-in-out;
-  overflow-y: auto;
+.project-actions {
+  display: flex;
+  gap: 10px;
 }
 
-#info-slide-container.active {
-  top: 0;
+.project-actions button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
 }
+
+.project-actions button:hover {
+  background: #f2f2f2;
+}
+
+
 

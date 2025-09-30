@@ -5,8 +5,8 @@
   <?php include '../../components/info-menu.php'; ?>
 
   <section class="info-content">
-    <h1>Awards</h1>
-    <p>This page features honors and accolades received by Positive Space Design Studio for architectural excellence.</p>
+    <h1>Art</h1>
+    <p>Explore open positions and career opportunities at Positive Space Design Studio’s global offices.</p>
   </section>
 </main>
 <?php include '../../components/footer.php'; ?>
