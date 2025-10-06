@@ -64,3 +64,52 @@ button {
 button:hover {
   background: #157347;
 }
+
+/* Image Section Styling */
+.image-section {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.image-section h3 {
+  color: #495057;
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  /* border-bottom: 2px solid #0073e6; */
+  padding-bottom: 0.5rem;
+}
+
+.image-section .form-row {
+  margin-bottom: 0;
+}
+
+.image-section .form-group {
+  margin-bottom: 0;
+}
+
+.image-section textarea {
+  min-height: 60px;
+  font-size: 0.9rem;
+}
+
+.image-section input[type="file"] {
+  border: 2px dashed #dee2e6;
+  background: #fff;
+  padding: 1rem;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.image-section input[type="file"]:hover {
+  border-color: #0073e6;
+}
+
+.image-section input[type="file"]:focus {
+  border-color: #0073e6;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 115, 230, 0.25);
+}

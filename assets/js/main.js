@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const sortedKeys = Object.keys(grouped).sort((a, b) => {
       if (filterType === "status") {
-        const order = ["Idea", "In Progress", "UnderConstruction", "Completed"];
+        const order = ["Idea", "In Progress", "Under Construction", "Completed"];
         return order.indexOf(a) - order.indexOf(b);
       }
       if (filterType === "programmatic") {

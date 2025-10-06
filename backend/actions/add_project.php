@@ -16,6 +16,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $longitude = $_POST['longitude'] ?: null;
     $description = $_POST['description'];
     $selected = isset($_POST['selected']) ? 1 : 0;
+    
+    // Get description fields
+    $thumbnail_brief = $_POST['thumbnail_brief'] ?? '';
+    $site_plan_brief = $_POST['site_plan_brief'] ?? '';
+    $floor_plan_brief = $_POST['floor_plan_brief'] ?? '';
+    $additional_images_brief = $_POST['additional_images_brief'] ?? '';
 
     // handle file uploads
     $thumbnailPath = null;
@@ -24,6 +30,24 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $target = "../uploads/" . $thumbName;
         move_uploaded_file($_FILES['thumbnail']['tmp_name'], $target);
         $thumbnailPath = "uploads/" . $thumbName;
+    }
+
+    // Handle site plan upload
+    $sitePlanPath = null;
+    if (!empty($_FILES['site_plan']['name'])) {
+        $sitePlanName = time() . "_site_" . basename($_FILES['site_plan']['name']);
+        $target = "../uploads/" . $sitePlanName;
+        move_uploaded_file($_FILES['site_plan']['tmp_name'], $target);
+        $sitePlanPath = "uploads/" . $sitePlanName;
+    }
+
+    // Handle floor plan upload
+    $floorPlanPath = null;
+    if (!empty($_FILES['floor_plan']['name'])) {
+        $floorPlanName = time() . "_floor_" . basename($_FILES['floor_plan']['name']);
+        $target = "../uploads/" . $floorPlanName;
+        move_uploaded_file($_FILES['floor_plan']['tmp_name'], $target);
+        $floorPlanPath = "uploads/" . $floorPlanName;
     }
 
     $imagesArray = [];
@@ -36,6 +60,27 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
     }
     $imagesJson = json_encode($imagesArray);
+
+    // Create enhanced images data structure with descriptions
+    $enhancedImagesData = [
+        'thumbnail' => [
+            'path' => $thumbnailPath,
+            'brief' => $thumbnail_brief
+        ],
+        'site_plan' => [
+            'path' => $sitePlanPath,
+            'brief' => $site_plan_brief
+        ],
+        'floor_plan' => [
+            'path' => $floorPlanPath,
+            'brief' => $floor_plan_brief
+        ],
+        'additional_images' => [
+            'paths' => $imagesArray,
+            'brief' => $additional_images_brief
+        ]
+    ];
+    $enhancedImagesJson = json_encode($enhancedImagesData);
 
     // Insert into DB
     $stmt = $conn->prepare("INSERT INTO projects 
@@ -53,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         'latitude' => $latitude,
         'longitude' => $longitude,
         'thumbnail' => $thumbnailPath,
-        'images' => $imagesJson,
+        'images' => $enhancedImagesJson,
         'description' => $description,
         'selected' => $selected,
         'uid' => $_SESSION['user_id']
@@ -230,21 +275,67 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
       </div>
 
-      <div class="form-row">
-        <div class="form-group">
-          <label>Thumbnail</label>
-          <input type="file" name="thumbnail" accept="image/*">
-        </div>
-        <div class="form-group">
-          <label>Images</label>
-          <input type="file" name="images[]" accept="image/*" multiple>
+      <!-- Image Sections with Descriptions -->
+      <div class="image-section">
+        <h3>Thumbnail Image</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Thumbnail Image</label>
+            <input type="file" name="thumbnail" accept="image/*">
+          </div>
+          <div class="form-group">
+            <label>Project Brief</label>
+            <textarea name="thumbnail_brief" rows="2" placeholder="Brief description of the thumbnail image"></textarea>
+          </div>
         </div>
       </div>
 
-      <div class="form-group">
-        <label>Description</label>
-        <textarea name="description" rows="3"></textarea>
+      <div class="image-section">
+        <!-- <h3>Site Plan</h3> -->
+        <div class="form-row">
+          <div class="form-group">
+            <label>Site Plan Image</label>
+            <input type="file" name="site_plan" accept="image/*">
+          </div>
+          <div class="form-group">
+            <label>Site Plan Brief</label>
+            <textarea name="site_plan_brief" rows="2" placeholder="Brief description of the site plan"></textarea>
+          </div>
+        </div>
       </div>
+
+      <div class="image-section">
+        <h3>Floor Plan</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Floor Plan Image</label>
+            <input type="file" name="floor_plan" accept="image/*">
+          </div>
+          <div class="form-group">
+            <label>Floor Plan Brief</label>
+            <textarea name="floor_plan_brief" rows="2" placeholder="Brief description of the floor plan"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-section">
+        <h3>Additional Images</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Additional Images</label>
+            <input type="file" name="images[]" accept="image/*" multiple>
+          </div>
+          <div class="form-group">
+            <label>Additional Images Brief</label>
+            <textarea name="additional_images_brief" rows="2" placeholder="Brief description of additional images"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="form-group">
+        <label>Project Brief</label>
+        <textarea name="description" rows="3" placeholder="Overall project description"></textarea>
+      </div> -->
 
       <div class="form-group">
         <label>

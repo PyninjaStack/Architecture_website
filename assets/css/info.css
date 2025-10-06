@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
 .info-section {
   display: flex;
   gap: 2rem;
@@ -27,7 +34,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .info-menu-list li {
@@ -78,6 +85,8 @@
   margin-bottom: 1.5rem;
   text-decoration: none;
   padding-left: 0rem;
+  margin-top: 0rem;
+  
 }
 
 .projects-top-link:hover {
